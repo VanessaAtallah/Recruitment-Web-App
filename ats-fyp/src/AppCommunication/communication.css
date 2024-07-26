@@ -1,0 +1,44 @@
+.interview-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.interview-box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease; /* Add transition for smoother changes */
+  background: linear-gradient(135deg, #abc9ed, #bebcff);
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+.job-applied-details{
+    color: #3367d6;
+    font-family: "Bad Script", cursive;
+    font-style: normal;
+    font-size: 15px;
+  }
+  
+  .job-applied-details span{
+    color: black;
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .h12{
+    color: #3367d6;
+    margin-left: 250px;
+  }
+
+  .assessment-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Add transition for smoother changes */
+    background: linear-gradient(135deg, #abc9ed, #bebcff);
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }

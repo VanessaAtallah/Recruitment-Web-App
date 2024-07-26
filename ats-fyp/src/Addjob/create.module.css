@@ -1,0 +1,405 @@
+.jobFormContainer {
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #5390D9, #bebcff);
+  margin-left: 250px;
+  }
+
+  .container {
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #5390D9, #bebcff);
+    }
+
+  .containertitle {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  }
+  .readOnly input {
+  background-color: #f0f0f0; /* Set background color to grey */
+  color: #999; /* Set text color to grey */
+  cursor: not-allowed; /* Show cursor as not-allowed */
+  }
+  .containertitle::before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  left: 0;
+  bottom: 0;
+  background: #00154c;
+  }
+  .container form .userdetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+  }
+  .form-row {
+  display: flex;
+  justify-content: space-between;
+  }
+  .inputbox {
+  width: 50%;
+  margin-bottom: 15px;
+  }
+  .inputbox label {
+  display: block;
+  }
+  .inputbox1 {
+  width: 50%;
+  margin-bottom: 15px;
+  margin-left: 250px;
+  }
+  .inputbox1 label {
+  display: block;
+  }
+  .inputbox input[type="text"],
+  .inputbox input[type="date"],
+  .inputbox input[type="location"],
+  .inputbox input[type="url"],
+  .inputbox select {
+  width: 100%;
+  height: 35px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  margin-right: 4px;
+  }
+  .inputbox input[type="checkbox"] {
+  width: auto;
+  }
+  .userdetails .inputbox .details {
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+  }
+  .userdetails .inputbox input {
+  height: 35px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  margin-right: 4px;
+  }
+  .userdetails .inputbox input:focus,
+  .userdetails .inputbox input:valid {
+  border-color: #00154c;
+  }
+  .btn {
+  width: 140px;
+  height: 50px;
+  background: linear-gradient(to top, #00154c, #12376e, #23487f);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  margin-left: 250px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  }
+  .btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+  }
+  .btntextone {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  }
+  .btntexttwo {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+  }
+  .btn:hover .btntextone {
+  top: -100%;
+  }
+  .btn:hover .btntexttwo {
+  top: 50%;
+  }
+  @media(max-width: 584px){
+  .container{
+  max-width: 100%;
+  }
+  form .userdetails .inputbox{
+  margin-bottom: 15px;
+  width:100%;
+  }
+  .container form .userdetails{
+  max-height: 300px;
+  overflow-y:scroll ;
+  }
+  .userdetails::-webkit-scrollbar{
+  width:0;
+  }
+  }
+  .a1{
+  margin-left: 355px;
+  margin-top: -69px;
+  }
+  .a3{
+  margin-left: 355px;
+  margin-top: -82px;
+  }
+  /*EditorDeleteJob*/
+  .jobcontainer {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease; /* Add transition for smoother changes */
+  margin-left: 250px;
+  background: linear-gradient(135deg, #abc9ed, #bebcff);
+  max-width: 700px;
+  margin-top: 10px;
+
+
+}
+
+.jobcontainer:hover {
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow on hover for visual effect */
+}
+
+
+
+.jobactions button {
+    width: 90px;
+    height: 30px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 50px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    
+}
+
+
+.jobactions button:hover {
+  filter: brightness(0.9); /* Dim button slightly on hover */
+}
+
+.jobactions button.edit {
+  color:#00154c;
+  margin-left: 10px;
+  background: #3367d6;
+}
+
+.jobactions button.delete {
+  color:#00154c;
+  background: #4285f4;
+
+}
+
+.jobactions button.viewb{
+  color:#00154c;
+  background: #7baaf7;
+
+}
+.jobactions button.done {
+  color:white;
+  background: linear-gradient(to top, #3A0CA3,#6930C3,  #7400B8);
+  margin-left: 600px;
+
+}
+
+.jobactions button.viewApplicants{
+  color:#00154c;
+  background: #a5bee9;
+}
+.jobactions button.assessment{
+  color:#00154c;
+  background: #c6dafc;
+}
+.h11{
+  margin-left: 300px;
+  color:#2c5bd1;
+
+}
+.jobtitle{
+  font-family: "Cambria";
+    font-size: 25px;
+    color: #00154c;
+    text-align: center;
+}
+.jobothers{
+  font-family: "Cambria";
+    font-size: 15px;
+    color: #04133a;
+    
+}
+
+
+  .jobcontainer:hover {
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow on hover for 
+  visual effect */
+  }
+  .jobactions button {
+  width: 90px;
+  height: 30px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 50px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  }
+  .jobactions button:hover {
+  filter: brightness(0.9); /* Dim button slightly on hover */
+  }
+  .jobactions button.edit {
+  color:#00154c;
+  margin-left: 10px;
+  background: #3367d6;
+  }
+  .jobactions button.delete {
+  color:#00154c;
+  background: #4285f4;
+  }
+  .jobactions button.viewb{
+  color:#00154c;
+  background: #7baaf7;
+  }
+  .jobactions button.done {
+  color:white;
+  background: linear-gradient(to top, #3A0CA3,#6930C3, #7400B8);
+  margin-left: 600px;
+
+  }
+  .jobcontainer:hover {
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow on hover for 
+  visual effect */
+  }
+  .jobactions button {
+  width: 90px;
+  height: 30px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 50px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  }
+  .jobactions button:hover {
+  filter: brightness(0.9); /* Dim button slightly on hover */
+  }
+  .jobactions button.edit {
+  color:#00154c;
+  margin-left: 10px;
+  background: #3367d6;
+  }
+  .jobactions button.delete {
+  color:#00154c;
+  background: #4285f4;
+  }
+  .jobactions button.viewb{
+  color:#00154c;
+  background: #7baaf7;
+  }
+  .jobactions button.done {
+  color:white;
+  background: linear-gradient(to top, #3A0CA3,#6930C3, #7400B8);
+  margin-left: 600px;
+
+  }
+  .jobactions button.viewApplicants{
+  color:#00154c;
+  background: #a5bee9;
+  }
+  .jobactions button.assessment{
+  color:#00154c;
+  background: #c6dafc;
+  }
+  .h1{
+  text-align: center;
+  color:#00154c;
+  }
+  .jobtitle{
+  font-family: "Cambria";
+  font-size: 25px;
+  color: #00154c;
+  text-align: center;
+  }
+  .jobothers{
+  font-family: "Cambria";
+  font-size: 15px;
+  color: #04133a;
+  }
+  .popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  z-index: 9999;
+  overflow:auto; 
+  max-height: 500px;
+  
+}
+.closeButton {
+  margin-left: 1000px;
+  max-height: 50vh; /* Set maximum height for the pop-up */
+  overflow:auto; 
+  }
+  .closeButton {
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  color: #333;
+
+}
+
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Gray color with 50% opacity */
+  z-index: 999; /* Ensure it's above other content */
+}
+
+.noApplications{
+  margin-left: 300px;
+  font-size: 40px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: gray;
+}

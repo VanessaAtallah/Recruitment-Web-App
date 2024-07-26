@@ -1,0 +1,127 @@
+.sideMenuContainer {
+    float: left;
+    width: 250px;
+  }
+  
+  .contentContainer {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Set the height of the container to full viewport height */  
+}
+
+.infoProfile{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(223, 223, 223);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+.infoProfile h1{
+    text-align: center;
+    color: #2e3199;
+    font-family: "Waterfall", cursive;
+    font-size: 50px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+
+}
+  
+.infoProfile p{
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.infoProfile span{
+    margin-left: 15px;
+    font-weight: normal;
+    font-family: "Macondo", cursive;
+    color: #64a0ff;
+}
+
+.delete-account{
+    text-align: center;
+}
+
+.delete-account-button{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    width: fit-content;
+  
+}
+
+.overlay-delete-account {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 999; /* Ensure the overlay is above other content */
+  }
+  
+  .popup-delete-account {
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    z-index: 1000; /* Ensure the popup is above the overlay */
+  }
+
+  .popup-header-delete-account {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .close-delete-account {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #aaa;
+  }
+  
+  .close-delete-account:hover,
+  .close-delete-account:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .yes-delete-account{
+    width: 50px;
+    font-size: 17px;
+    background-color: #2e3199;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+  }
+
+  .no-delete-account{
+    width: 50px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: #64a0ff;
+  }
+
+  .are-you-sure{
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

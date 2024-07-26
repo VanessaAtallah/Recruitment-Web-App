@@ -1,0 +1,180 @@
+
+.list-of-applications{
+    margin-left: 250px;
+    display: grid;
+
+}
+
+.applications-container{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease; /* Add transition for smoother changes */
+  margin-left: 10px;
+  background: linear-gradient(135deg, #abc9ed, #bebcff);
+  width: 300px;
+  margin-top: 10px;
+}
+
+.applications-container:hover {
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow on hover for visual effect */
+  }
+
+.start-test-button{
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 50px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    background-color: #abc9ed;
+}
+
+.start-test-button:hover {
+    filter: brightness(0.9); /* Dim button slightly on hover */
+  }
+
+  
+/*popup-test*/
+.popup-test {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner-test {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    max-height: 80vh; /* Set maximum height to 80% of the viewport height */
+    overflow-y: auto; /* Enable vertical scroll */
+}
+
+.close-test {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.general-container {
+  display: flex;
+}
+
+.main-content {
+  flex: 1; /* Take up remaining space */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.my-applications-title {
+  margin-left: 250px;
+  margin-bottom: 20px; /* Add some bottom margin for spacing */
+  color: #3367d6;
+}
+
+.list-of-applications{
+  text-align: center;
+    margin-left: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    gap: 50px; /* Add some gap between the columns */
+
+}
+
+.applications-container{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease; /* Add transition for smoother changes */
+  margin-left: 10px;
+  background: linear-gradient(135deg, #e3f0ff,#b9b7ff, #9894ff);
+ width: 300px;
+  margin-top: 10px;
+}
+
+.applications-container:hover {
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow on hover for visual effect */
+  }
+
+.start-test-button{
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+   
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    background-color: #3367d6;
+}
+
+.start-test-button:hover {
+    filter: brightness(0.9); /* Dim button slightly on hover */
+  }
+
+  
+/*popup-test*/
+.popup-test {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner-test {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    max-height: 80vh; /* Set maximum height to 80% of the viewport height */
+    overflow-y: auto; /* Enable vertical scroll */
+}
+
+.close-test {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.job-applied-details{
+  color: #3367d6;
+  font-family: "Bad Script", cursive;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.job-applied-details span{
+  color: black;
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.no-apply-yet{
+  font-size: 40px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: gray;
+}

@@ -1,0 +1,42 @@
+.filters-popup {
+  width: 100%;
+  background-color: #d8e9ff;
+}
+
+.filters-popup label,
+.filters-popup select,
+.filters-popup input {
+  display: block;
+  border: 1px solid #ddd;
+  padding: 7px;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #8b8b8b;
+}
+
+.button-filters {
+  display: block;
+  color: white;
+  background: linear-gradient(to top, #00154c, #12376e, #23487f);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  font-size: 12px; 
+}
+
+.button-container {
+  display: flex;
+ padding: 20px;
+ justify-content: space-between;
+}
+
+.filters-title{
+  color: #184a96;
+ text-align: center;
+}

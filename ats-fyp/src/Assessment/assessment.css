@@ -1,0 +1,129 @@
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e2eefd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #2a1399;
+    font-family: cursive;
+
+  }
+
+  .form-container input[type="text"],
+  .form-container input[type="number"],
+  .form-container select,
+  .form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  }
+
+  .remove-question{
+    padding: 5px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 2px;
+  
+  }
+  
+  .remove-choice{
+    padding: 5px;
+    background-color: white;
+    color: #ff0000;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 2px;
+  }
+
+  .add-choice{
+    padding-top: 6px;
+    background-color: white;
+    color: #2b00ff;
+    border-radius: 50%;
+    border: 0.3px solid black;
+    cursor: pointer;
+    
+  }  
+  .add-question{
+    padding: 5px;
+    background: linear-gradient(to top, #00154c, #12376e, #23487f);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 2px;
+  }
+
+  .create-test{
+    padding: 5px;
+    background: linear-gradient(to top, #00154c, #12376e, #23487f);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+  
+  }
+
+  .question-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .question-container label {
+    display: block;
+  }
+  
+  .question-container input[type="text"],
+  .question-container textarea {
+    width: calc(100% - 40px);
+  }
+  
+  
+  .question-container div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .question-container input[type="radio"],
+  .question-container input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .question-container button{
+    margin-bottom: 10px;
+  }
+
+  .test-name{
+    color: #2b00ff;
+  }
+
+  .test-duration{
+    color: #ff0000;
+  }

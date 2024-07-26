@@ -1,0 +1,417 @@
+/* App.css */
+.cv-form {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.block {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.block input {
+  margin-right: 10px;
+}
+
+
+/*Image*/
+.imagebox {
+  position: relative;
+  width: 150px;
+  height: 100px;
+  border: 2px solid #ccc;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-left:50px;
+}
+
+.imagebox img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.uploadlabel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.uploadingmessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+}
+
+/* Input Text Fields */
+.inputField1 {
+  position: absolute; /* Position the input field absolutely */
+  top: 10px; /* Adjust the top position as needed */
+  left: 250px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 25px; /* Set font size */
+  color: #272a7e; /* Set text color */
+  font-weight: bold;
+}
+.inputField2 {
+  position: absolute; /* Position the input field absolutely */
+  top: 50px; /* Adjust the top position as needed */
+  left: 250px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 15px; /* Set font size */
+  color: #272a7e; /* Set text color */
+  font-weight: bold;
+}
+.inputField3 {
+  position: absolute; /* Position the input field absolutely */
+  top: 90px; /* Adjust the top position as needed */
+  left: 250px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+
+}
+.label1{
+  position:absolute;
+  top: 135px;
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 25px; /* Set font size */
+  color: #272a7e; /* Set text color */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(37, 29, 86, 0.5); /* Add shadow */
+ 
+}
+.educationContainer{
+  margin-top: 50px;
+}
+
+.label2{
+  top: 260px;
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 25px; /* Set font size */
+  color: #272a7e; /* Set text color */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(37, 29, 86, 0.5); /* Add shadow */
+ 
+}
+
+.experienceContainer{
+  margin-top: 10px;
+}
+
+.label3{
+  top: 300px;
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 25px; /* Set font size */
+  color: #272a7e; /* Set text color */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(37, 29, 86, 0.5); /* Add shadow */
+ 
+}
+
+.referenceContainer{
+  margin-top: 10px;
+}
+
+.inputField11 {
+  position: absolute; /* Position the input field absolutely */
+  top: 10px; /* Adjust the top position as needed */
+  left: 700px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}
+.icon1{
+  position: absolute; /* Position the input field absolutely */
+  top: 10px; /* Adjust the top position as needed */
+  left: 680px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}
+.inputField12 {
+  position: absolute; /* Position the input field absolutely */
+  top: 50px; /* Adjust the top position as needed */
+  left: 700px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}
+.icon2{
+  position: absolute; /* Position the input field absolutely */
+  top: 50px; /* Adjust the top position as needed */
+  left: 680px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}
+
+.inputField13 {
+  position: absolute; /* Position the input field absolutely */
+  top: 90px; /* Adjust the top position as needed */
+  left: 700px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}
+.icon3{
+  position: absolute; /* Position the input field absolutely */
+  top: 90px; /* Adjust the top position as needed */
+  left: 680px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}
+
+.inputField14 {
+  position: absolute; /* Position the input field absolutely */
+  top: 130px; /* Adjust the top position as needed */
+  left: 700px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}
+.icon4{
+  position: absolute; /* Position the input field absolutely */
+  top: 130px; /* Adjust the top position as needed */
+  left: 680px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}
+
+.inputField15 {
+  position: absolute; /* Position the input field absolutely */
+  top: 170px; /* Adjust the top position as needed */
+  left: 700px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}
+.icon5{
+  position: absolute; /* Position the input field absolutely */
+  top: 170px; /* Adjust the top position as needed */
+  left: 680px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}
+.inputField16 {
+  position: absolute; /* Position the input field absolutely */
+  top: 210px; /* Adjust the top position as needed */
+  left: 700px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}
+.icon6{
+  position: absolute; /* Position the input field absolutely */
+  top: 210px; /* Adjust the top position as needed */
+  left: 680px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}
+
+.inputField17 {
+  position: absolute; /* Position the input field absolutely */
+  top: 250px; /* Adjust the top position as needed */
+  left: 700px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}
+.icon7{
+  position: absolute; /* Position the input field absolutely */
+  top: 250px; /* Adjust the top position as needed */
+  left: 680px; /* Adjust the left position as needed */
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}
+
+.label4{
+  top: 350px;
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 25px; /* Set font size */
+  color: #272a7e; /* Set text color */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(37, 29, 86, 0.5); /* Add shadow */
+ 
+}
+.skillContainer{
+  margin-top: 10px;
+}
+
+.awardContainer{
+  margin-top: 10px;
+}
+
+.certContainer{
+  margin-top: 10px;
+}
+
+.hobContainer{
+  margin-top: 10px;
+}
+
+.lanContainer{
+  margin-top: 10px;
+}
+
+.educationItemInput{
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+
+}
+
+.btn {
+  width: 140px;
+  height: 50px;
+  background: linear-gradient(to top, #00154c, #12376e, #23487f);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  margin-left: 250px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+
+.btntextone {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btntexttwo {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn:hover .btntextone {
+  top: -100%;
+}
+
+.btn:hover .btntexttwo {
+  top: 50%;
+}
+
+.pdf{
+
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 25px; /* Set font size */
+  color: #272a7e; /* Set text color */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(37, 29, 86, 0.5); /* Add shadow */
+}
+.coverletter{
+  background-color: white; /* Set background color to white */
+  border: white; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 8px; /* Add padding as needed */
+  font-family: 'Times New Roman', Times, serif; /* Set font family */
+  font-size: 12px; /* Set font size */
+  color: #272a7e; /* Set text color */
+}

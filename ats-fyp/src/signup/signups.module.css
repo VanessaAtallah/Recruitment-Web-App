@@ -1,0 +1,250 @@
+.container2 {
+  display: flex;
+  width: 90%; /* Adjust width to be responsive */
+  max-width: 1000px; /* Set maximum width */
+  margin: 0 auto;
+  background-color: #d3c5f1; /* Changed background color to blue */
+  border-radius: 10px;
+  box-shadow: 0px 13px 25px #9d86cf;
+
+}
+
+.input1:focus {
+  outline: none;
+  border: 2px solid #9d86cf;
+}
+
+.signupbutton {
+  display: block;
+  width: calc(50% - 10px);
+  font-weight: bold;
+  background-color: #9d86cf;
+  color:white;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.signupbutton:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 13px 25px #9d86cf;
+}
+
+.signupbutton:active {
+  transform: scale(0.95);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.socialbutton i {
+  font-size: 1.2em;
+}
+
+.socialbuttongoogle i {
+  color: #4285f4;
+}
+
+.socialbuttonapple i {
+  color: #000;
+}
+
+.socialbutton:hover i {
+  transform: scale(1.2);
+}
+
+.eyeButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.eyeButton:focus {
+  outline: none;
+}
+
+.eyeButton i {
+  font-size: 1.2em;
+  color: #9d86cf;
+}
+
+.eyeButton:hover i {
+  color: #333;
+}
+
+.socialbutton i {
+  font-size: 1.2em;
+}
+
+.socialbutton:hover i {
+  transform: scale(1.2);
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  position: relative;
+}
+
+.leftContainer {
+  flex: 1;
+}
+
+.rightContainer {
+  flex: 2;
+  padding: 0 20px;
+  background-color: #03045E;
+  border-radius: 10px; 
+  margin-left: 50px;
+  margin-right: -150px;
+  box-shadow: 0px 13px 25px #9d86cf;
+
+}
+
+.picture1 {
+  width: 500px;
+  margin-left: -200px;
+}
+
+.input1 {
+  width: calc(50% - 10px);
+  background: #f3f4f8;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: 2px solid transparent;
+  box-shadow: 0px 13px 25px #9d86cf;
+}
+
+.title{
+  color: #9d86cf;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.heading1{
+  color: #9d86cf;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin-left: 150px;
+}
+.heading2{
+  color: #9d86cf;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin-left: 80px;
+}
+
+/* Styles for Google and Apple buttons */
+.socialbuttongoogle {
+  background-color: #fff;
+  border: 2px solid #4285f4;
+  color: #4285f4;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.socialbuttonapple {
+  background-color: #000;
+  border: 2px solid #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.p1{
+  color: #9d86cf;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin-left: 30px;
+  margin-bottom: -440px;
+
+}
+/* Add styles for the radio buttons */
+.radioContainer {
+  margin-top: 15px;
+}
+
+.maleInput,
+.femaleInput {
+  margin-right: 10px;
+}
+
+/* Styles for labels */
+.labelText {
+  color: #9d86cf;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+/* Add media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .container2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightContainer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .picture1 {
+    margin-left: 0;
+    margin-bottom: 20px; /* Add some space between the image and form */
+  }
+}
+.p1{
+  color: #9d86cf;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin-left: 30px;
+  margin-bottom: -440px;
+
+}
+/* Add styles for the radio buttons */
+.radioContainer {
+  margin-top: 25px;
+}
+
+.maleInput,
+.femaleInput {
+  margin-right: 10px;
+}
+
+/* Styles for labels */
+.labelText {
+  color: #9d86cf;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.p2{
+  color: #9d86cf;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin-left: 30px;
+  margin-bottom: -550px;
+
+}
+
+.goToHome{
+  margin-right: 50px;
+  font-size: 40px;
+  color: #9d86cf;
+}
+
+.goToHome:hover{
+  cursor: pointer;
+}

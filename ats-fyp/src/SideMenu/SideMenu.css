@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background: rgb(231, 229, 253);
+    color: #3b6b9c;
+    height: 100vh;
+    transition: all 0.3s;
+    position: fixed; /* Fixed position */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
+    overflow-y: auto; /* Enable vertical scrolling */    
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.bars {
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.link {
+    display: flex;
+    color: #3b6b9c;
+    padding:  15px;
+    gap: 25px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.link:hover {
+    background: #3b6b9c;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.active {
+    background: #12317d; 
+    color: #fff;
+}
+
+.icon,
+.link_text {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.logo-menu{
+    margin-right: 100px;
+
+    
+}
+
+.title-menu{
+    font-size: 40px;
+    color: #12317d;
+    font-family: "Whisper";
+}

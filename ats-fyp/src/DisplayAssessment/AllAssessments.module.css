@@ -1,0 +1,330 @@
+.container {
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #5390D9, #bebcff);
+  margin: 0 auto;
+  margin-left: 200px;
+  }
+  .containertitle {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  }
+  /*EditorDeleteJob*/
+  .jobcontainer {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease; /* Add transition for smoother changes */
+  margin-left: 200px;
+  background: linear-gradient(135deg, #abc9ed, #bebcff);
+  width: 250px;
+  margin-top: 10px;
+}
+
+.jobcontainer:hover {
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow on hover for visual effect */
+}
+
+.h1{
+ text-align: center;
+ color:#00154c;
+}
+.jobtitle{
+  font-family: "Cambria";
+    font-size: 25px;
+    color: #00154c;
+    text-align: center;
+}
+.jobothers{
+  font-family: "Cambria";
+    font-size: 15px;
+    color: #04133a;      
+}
+
+  .h1{
+  text-align: center;
+  color:#00154c;
+  }
+  .jobtitle{
+  font-family: "Cambria";
+  font-size: 25px;
+  color: #00154c;
+  text-align: center;
+  }
+  .jobothers{
+  font-family: "Cambria";
+  font-size: 15px;
+  color: #04133a;
+  }
+
+/* AllAssessments.module.css */
+
+
+.formcontainer {
+max-width: 450px;
+margin: 0 auto;
+padding: 20px;
+background-color: #e2eefd;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+margin-left: 200px;
+}
+
+.formcontainer label {
+display: block;
+margin-bottom: 15px;
+font-weight: bold;
+color: #2a1399;
+font-family: cursive;
+
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container select,
+.form-container textarea {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-family: "Space Grotesk", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+}
+
+
+.question-container div {
+display: flex;
+margin-bottom: 5px;
+}
+
+
+.testname{
+color: #2b00ff;
+}
+
+.testduration{
+color: #ff0000;
+}
+.ol{
+color: green;
+}
+.buttoncontainer {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust the minimum button width */
+grid-gap: 10px; /* Adjust the space between buttons */
+}
+
+.popup {
+position: fixed;
+top: 50%;
+left: 77%;
+transform: translate(-50%, -50%);
+padding: 20px;
+z-index: 9999;
+max-height: 500px;
+background-color: #b7dae4;
+overflow:scroll;
+width: 500px;
+}
+
+.closeButton {
+padding: 5px;
+cursor: pointer;
+background-color: transparent;
+border: none;
+font-size: 18px;
+color: #333;
+
+}
+.input1{
+width: 15%;
+height: 35px;
+outline: none;
+border-radius: 5px;
+border: 1px solid #ccc;
+padding-left: 15px;
+font-size: 16px;
+border-bottom-width: 2px;
+transition: all 0.3s ease;
+box-sizing: border-box;
+margin-right: 4px;
+}
+.label1{
+color: black;
+font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+
+}
+.input2{
+outline: none;
+border-radius: 5px;
+border: 1px solid #ccc;
+padding-left: 15px;
+font-size: 16px;
+border-bottom-width: 2px;
+transition: all 0.3s ease;
+box-sizing: border-box;
+margin-right: 4px;
+}
+
+.btn {
+width: 100px;
+height: 40px;
+background: linear-gradient(to top, #00154c, #12376e, #23487f);
+color: #fff;
+border-radius: 5px;
+border: none;
+outline: none;
+cursor: pointer;
+position: relative;
+margin-left: 10px;
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+overflow: hidden;
+}
+.btn span {
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 1px;
+transition: top 0.5s;
+}
+.btntextone {
+position: absolute;
+width: 100%;
+top: 50%;
+left: 0;
+transform: translateY(-50%);
+}
+.btntexttwo {
+position: absolute;
+width: 100%;
+top: 150%;
+left: 0;
+transform: translateY(-50%);
+}
+.btn:hover .btntextone {
+top: -100%;
+}
+.btn:hover .btntexttwo {
+top: 50%;
+}
+
+.applicationscontainer {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease; /* Add transition for smoother changes */
+  margin-left: 50px;
+  background: linear-gradient(135deg, #abc9ed, #bebcff);
+  width: 300px;
+  margin-top: 10px;
+}
+
+.applicationscontainer:hover {
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow on hover for visual effect */
+}
+.listofapplications {
+margin-left: 250px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+
+.myapplicationstitle {
+margin-left: 250px;
+margin-bottom: 20px; /* Add some bottom margin for spacing */
+color: #3367d6;
+}
+
+
+.buttonv{
+width: 80px;
+height: 30px;
+color: #fff;
+border-radius: 5px;
+border: none;
+outline: none;
+cursor: pointer;
+margin-left: 50px;
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+overflow: hidden;
+background-color: #abc9ed;
+}
+
+.buttonv:hover {
+filter: brightness(0.9); /* Dim button slightly on hover */
+}
+
+.jobapplieddetails{
+color: #192b50;
+font-family:'Times New Roman', Times, serif;
+font-size: 17px;
+}
+
+.jobapplieddetails1{
+color: #090f1b;
+font-family:'Times New Roman', Times, serif;
+font-size: 15px;
+
+}
+
+
+.applicants-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 20px; /* Add some top margin for spacing */
+background-color: transparent;
+color: #04133a;
+border: 2px solid #04133a;
+padding: 15px 20px;
+border-radius: 5px;
+cursor: pointer;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+}
+
+.button1 {
+background-color: transparent;
+color: #04133a;
+border: 2px solid #04133a;
+padding: 15px 20px;
+border-radius: 5px;
+cursor: pointer;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+margin: 5px; /* Add bottom margin for spacing */
+transition: all 0.3s ease; /* Add transition for smoother changes */
+}
+
+.button1:hover {
+background-color: #04133a;
+color: #fff; /* Change text color on hover */
+}
+.h1{
+text-align: center;
+color:#2c5bd1;
+}
+
+.noAssessmentsYet{
+margin-left: 250px;
+font-size: 40px;
+font-family: "Barlow Condensed", sans-serif;
+font-weight: 100;
+font-style: normal;
+color: gray;
+}
+
+.noOneTookTheTest{
+font-size: 20px;
+font-family: "Barlow Condensed", sans-serif;
+font-weight: 100;
+font-style: normal;
+color: gray;
+}
